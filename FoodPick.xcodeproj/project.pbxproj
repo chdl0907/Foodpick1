@@ -14,6 +14,9 @@
 		AB3991591F4D7EC000123362 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3991571F4D7EC000123362 /* LaunchScreen.storyboard */; };
 		AB3991641F4D7EC000123362 /* FoodPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3991631F4D7EC000123362 /* FoodPickTests.swift */; };
 		AB39916F1F4D7EC000123362 /* FoodPickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39916E1F4D7EC000123362 /* FoodPickUITests.swift */; };
+		AB39917F1F4D7FFB00123362 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39917E1F4D7FFB00123362 /* Store.swift */; };
+		AB3991811F4D8E7300123362 /* StoreListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3991801F4D8E7300123362 /* StoreListTableViewController.swift */; };
+		AB3991851F512D8E00123362 /* addStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3991841F512D8E00123362 /* addStoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AB39916A1F4D7EC000123362 /* FoodPickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodPickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB39916E1F4D7EC000123362 /* FoodPickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPickUITests.swift; sourceTree = "<group>"; };
 		AB3991701F4D7EC000123362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB39917E1F4D7FFB00123362 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		AB3991801F4D8E7300123362 /* StoreListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreListTableViewController.swift; sourceTree = "<group>"; };
+		AB3991841F512D8E00123362 /* addStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addStoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		AB39914D1F4D7EC000123362 /* FoodPick */ = {
 			isa = PBXGroup;
 			children = (
+				AB39917E1F4D7FFB00123362 /* Store.swift */,
 				AB39914E1F4D7EC000123362 /* AppDelegate.swift */,
 				AB3991501F4D7EC000123362 /* ViewController.swift */,
 				AB3991521F4D7EC000123362 /* Main.storyboard */,
+				AB3991841F512D8E00123362 /* addStoreViewController.swift */,
+				AB3991801F4D8E7300123362 /* StoreListTableViewController.swift */,
 				AB3991551F4D7EC000123362 /* Assets.xcassets */,
 				AB3991571F4D7EC000123362 /* LaunchScreen.storyboard */,
 				AB39915A1F4D7EC000123362 /* Info.plist */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3991851F512D8E00123362 /* addStoreViewController.swift in Sources */,
+				AB39917F1F4D7FFB00123362 /* Store.swift in Sources */,
+				AB3991811F4D8E7300123362 /* StoreListTableViewController.swift in Sources */,
 				AB3991511F4D7EC000123362 /* ViewController.swift in Sources */,
 				AB39914F1F4D7EC000123362 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +519,7 @@
 				AB3991751F4D7EC000123362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3991761F4D7EC000123362 /* Build configuration list for PBXNativeTarget "FoodPickTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				AB3991781F4D7EC000123362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3991791F4D7EC000123362 /* Build configuration list for PBXNativeTarget "FoodPickUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				AB39917B1F4D7EC000123362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
